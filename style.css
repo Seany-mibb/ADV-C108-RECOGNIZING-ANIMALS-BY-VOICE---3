@@ -1,0 +1,49 @@
+#developed{
+  position:fixed;
+  color:#dd2e2e;
+  bottom: 0;
+  width:1100px;
+  font-size:18px;
+  line-height: 2;
+  text-align: center;
+  align-self: center;
+  text-shadow: 5px 5px 5px rgb(151,149,149);
+}
+
+body{
+  background: rgb(63,197,251);
+  background: radial-gradient(circle, rgba(63,197,251,1) 0%, rgba(252,70,107,1) 100%);
+  font-family: 'Varela Round', sans-serif;
+}
+
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #B24592 0%, #F15F79  51%, #6683ad  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+img{
+  border: solid white 2px;
+  margin:10px;
+  width: 170px;
+  height:150px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }

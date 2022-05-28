@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animal Sound Recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+    
+    <center>
+      <h3 class = "btn-grad heading"> The Animal Sound Recognition App</h3>
+      <br><br>
+      <h3>Note: You Should play sounds like Roar, Meow, Bark or Moo</h3>
+      <img style = "visibility: hidden;" class = "grow" id = "animal3" src="lion.gif">
+      <img style = "visibility: hidden;" class = "grow" id = "animal1" src="cat.gif">
+      <img style = "visibility: hidden;" class = "grow" id = "animal4" src="dog.gif">
+      <img style = "visibility: hidden;" class = "grow" id = "animal2" src="cow.gif">
+      <img style = "margin-right : 186px;" class = "grow" id = "ear"src="listen-icon-6.png">
+      <br>
+      <br>
+      <button onclick="startClassification();" class = "btn btn-warning">Record</button>
+      <br>
+      <br>
+      <p style="font-size: 22px;" id = "result_sound_name">Detected :  </p>
+      <p style="font-size: 22px;"id = "result_sound_accuracy">Accuracy :  </p>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+    <div id = "developed">
+      Developed By - Sean
+    </div>
+    </center>
+
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
